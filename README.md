@@ -31,3 +31,12 @@ A fully serverless blog generation system built using AWS. This project uses Ama
 ---
 
 ## ⚙️ Project Flow 
+![Project Flow](Assets/Project_Flow.png)
+
+## 🧪 API Usage (via Postman)
+
+### Endpoint
+```http
+POST https://<your-api-id>.execute-api.<region>.amazonaws.com/<stage>/generate
+```
+![Postman](Assets/PostMan.png)
