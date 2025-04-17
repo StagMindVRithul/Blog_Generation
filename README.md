@@ -37,6 +37,30 @@ A fully serverless blog generation system built using AWS. This project uses Ama
 
 ### Endpoint
 ```http
-POST https://<your-api-id>.execute-api.<region>.amazonaws.com/<stage>/generate
+POST https://<your-api-id>.execute-api.<region>.amazonaws.com/<stage>/api-topic
 ```
 ![Postman](Assets/PostMan.png)
+
+## Result (AWS CloudWatch)
+![Result](Assets/CloudWatch.png)
+
+## 🚀 Future Improvements
+
+- Add **Streamlit** or **React** frontend for better user interaction
+- Save blog metadata (e.g., author, timestamp) in **DynamoDB**
+- Use **EventBridge** to schedule automated blog creation
+- Add **user authentication** to control who can trigger blog generation
+- Implement **prompt logging** to track user requests and generated content
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and share with attribution.
+
+---
+## 📢 Connect with Me
+
+Let's collaborate! Connect with me on:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/v-rithul-06b5632b6/)  
+
+🚀 **Happy Coding!**
